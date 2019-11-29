@@ -1,0 +1,59 @@
+html {
+  font-family: 'Ubuntu', sans-serif;
+  color: #eaeded;
+  background: linear-gradient(to bottom, #bf302d 1%,#bf2d16 50%,#b70000 100%);
+  background-size: 100vw 100vh;
+}
+
+#title {
+  font-weight: bold;
+  text-align: center;
+  border: 2px solid black;
+  background-color: rgba(0, 0, 0, 0.3);
+  padding: 1rem 0;
+  margin: 2rem;
+}
+
+.times {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+  padding: 10px;
+}
+
+.button {
+  color: inherit;
+  background: black;
+  border: 1px solid grey;
+  margin: 0.6rem;
+  font-size: 1.2rem;
+  padding: 0.5rem;
+}
+
+#custom-time input {
+  margin: 0.6rem;
+  font-size: 1.2rem;
+  padding: 0.5rem;
+}
+
+#time-left {
+  font-weight: bold;
+  text-align: center;
+  font-size: 10rem;
+  position: relative;
+}
+
+.counting {
+  font-size: 1.7rem;
+  text-align: center;
+  align-items: center;
+}
+
+#counter {
+  background-color: rgba(210, 210, 210, 0.2);
+  border-radius: 6px;
+  padding: 10px;
+  margin: 5px;
+  font-size: 3.5rem;
+}
